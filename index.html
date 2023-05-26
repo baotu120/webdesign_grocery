@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <!--    it's an easy way to find icon from "https://fontawesome.com/"-->
+    <script src="https://kit.fontawesome.com/4f0f28ecec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!--header starts-->
+<header class="header">
+    <a href="index.html" class="logo"><i class="fa-solid fa-shopping-basket"></i> grocery</a>
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="about.html">about</a>
+        <a href="review.html">review</a>
+        <a href="blog.html">blog</a>
+        <a href="contact.html">contact</a>
+    </nav>
+    <div class="icons">
+        <div id="menu-btn" class="fa-solid fa-bars"></div>
+        <div id="search-btn" class="fa-solid fa-search"></div>
+        <div id="cart-btn" class="fa-solid fa-shopping-cart"></div>
+        <div id="login-btn" class="fa-solid fa-user"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fa-solid fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fa-solid fa-xmark"></i>
+            <img src="images/cart-1.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.9</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-xmark"></i>
+            <img src="images/cart-2.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.9</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-xmark"></i>
+            <img src="images/cart-3.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.9</span>
+            </div>
+        </div>
+        <h3 class="total">total: <span>56.97</span></h3>
+        <a href="javascript:;" class="btn">checkout cart</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+</header>
+
+<!--header ends-->
+
+
+<!--Carousel starts-->
+<section class="home">
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>fresh and organic</span>
+                <h3>up to 50% off</h3>
+                <a href="javascript:;" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="images/home-img-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>fresh and organic</span>
+                <h3>up to 50% off</h3>
+                <a href="javascript:;" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="images/home-img-2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>fresh and organic</span>
+                <h3>up to 50% off</h3>
+                <a href="javascript:;" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="images/home-img-3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="prev-slide" class="fa-solid fa-angle-left"></div>
+    <div id="next-slide" class="fa-solid fa-angle-right"></div>
+</section>
+<!--Carousel ends-->
+
+
+<section class="banner-container">
+    <div class="banner">
+        <img src="images/banner-1.jpg" alt="">
+        <div class="content">
+            <span>limited sales</span>
+            <h3>up to 50% off</h3>
+            <a href="javascript:;" class="btn">shop now</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="images/banner-2.jpg" alt="">
+        <div class="content">
+            <span>limited sales</span>
+            <h3>up to 50% off</h3>
+            <a href="javascript:;" class="btn">shop now</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="images/banner-3.jpg" alt="">
+        <div class="content">
+            <span>limited sales</span>
+            <h3>up to 50% off</h3>
+            <a href="javascript:;" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html"> <i class="fa-solid fa-arrow-right"></i>home</a>
+            <a href="shop.html"> <i class="fa-solid fa-arrow-right"></i>shop</a>
+            <a href="about.html"> <i class="fa-solid fa-arrow-right"></i>about</a>
+            <a href="review.html"> <i class="fa-solid fa-arrow-right"></i>review</a>
+            <a href="blog.html"> <i class="fa-solid fa-arrow-right"></i>blog</a>
+            <a href="contact.html"> <i class="fa-solid fa-arrow-right"></i>contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="javascript:;"> <i class="fa-solid fa-arrow-right"></i> my order </a>
+            <a href="javascript:;"> <i class="fa-solid fa-arrow-right"></i> my favorite </a>
+            <a href="javascript:;"> <i class="fa-solid fa-arrow-right"></i> my wishlist </a>
+            <a href="javascript:;"> <i class="fa-solid fa-arrow-right"></i> my account </a>
+            <a href="javascript:;"> <i class="fa-solid fa-arrow-right"></i> terms or use </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="javascript:;"><i class="fa-brands fa-facebook"></i> facebook </a>
+            <a href="javascript:;"><i class="fa-brands fa-twitter"></i> twitter </a>
+            <a href="javascript:;"><i class="fa-brands fa-instagram"></i> instagram </a>
+            <a href="javascript:;"><i class="fa-brands fa-linkedin"></i> linkedin </a>
+            <a href="javascript:;"><i class="fa-brands fa-youtube-square"></i> youtube </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="enter your email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="images/payment.png" class="payment" alt="">
+            </form>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="credit">created by Yongxu | web design for final project</section>
+<script src="script.js"></script>
+</body>
+</html>
